@@ -187,3 +187,8 @@ body,
   color: white;
   text-decoration: none;
 }
+
+#navbarNav{
+  display: flex;
+  justify-content: space-between;
+}
