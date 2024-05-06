@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom'
-import {urlConfig} from '../../config';
+// import {urlConfig} from '../../config'; // turned it off cuz of lint jobs in github actions
 import { useAppContext } from '../../context/AuthContext';
 
 export default function Navbar() {
