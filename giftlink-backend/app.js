@@ -19,7 +19,7 @@ connectToDatabase().then(() => {
     .catch((e) => console.error('Failed to connect to DB', e));
 
 
-app.use(express.json());
+    app.use(express.json());
 
 // Route files
 const giftRoutes = require('./routes/giftRoutes');
